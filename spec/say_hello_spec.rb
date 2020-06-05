@@ -11,7 +11,7 @@ end
     expect($stdout).to receive(:puts).with("Hello Ruby Programmer!")
     say_hello()
 
-def say_hello(name = "Ruby Programmer!")
+def say_hello(name = "Ruby Programmer")
   puts ("Hello, #{name}!")
 end
 end
